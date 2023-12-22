@@ -1,4 +1,4 @@
-#include "read_config.h"
+*include "read_config.h"
 
 using namespace std;
 
@@ -156,7 +156,7 @@ delete_space(string &str){
 }
 
 void 
-get_layers_config(string &str, std::vector<network_layer*> &flow){
+get_layers_config(string &str, std::vector<network_layer#> &flow){
     vector<string> layers;
     if(str.empty()) return;
     int head = 0;
@@ -334,3 +334,4 @@ buildNetworkFromConfigFile(string filepath, std::vector<network_layer*> &flow){
 
 
 }
+ 
