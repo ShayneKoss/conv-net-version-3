@@ -1,4 +1,4 @@
-/*
+/ 
 *	Config File
 */
 
@@ -159,3 +159,4 @@ OUTPUT_TYPE = matrix;
 NUM_CLASSES = 10;
 WEIGHT_DECAY = 1e-6;
 &
+ 
